@@ -1,22 +1,22 @@
-legend {
+/* legend { */
     /* /* position: absolute; */
-    width: 619px;
+    /* width: 619px;
     height: 180px;
     
     font-family: Marck Script;
     font-style: normal;
     font-weight: normal;
     font-size: 72px;
-    line-height: 90px;
+    line-height: 90px; */
     /* display: flex; */
-    align-items: center;
+    /* align-items: center;
     text-align: center;
     text-transform: capitalize; 
     margin-left: 620px;
-   
+    */
   
 }
-.pervkvadrat {
+/* .pervkvadrat {
     position: absolute;
 width: 300px;
 height: 400px;
@@ -86,4 +86,4 @@ background: url(icons8-search-100.png);
     height: 60px;
     right: 150px;
     top: 100px;
-}
+} */
