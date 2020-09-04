@@ -1,3 +1,34 @@
-html {
-    margin: 0;
+
+.zagolovok {
+    height: 10em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center ;
+    margin: 0px 10px 10px 0px;
+    h1 {
+        font-family: Marck Script;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 72px;
+        line-height: 90px;
+      }
+}
+.kalendar {
+    position: absolute;
+    width: 162.23px;
+height: 160px;
+}
+.poisk{
+  display: flex;
+    width: 60px;
+height: 60px;
+
+
+background: url(icons8-search-100.png);
+}
+.burger{
+   display: flex;
+    width: 60px;
+    height: 60px;
+    
 }
