@@ -3,7 +3,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  margin: 0px 10px 10px 0px;
+  margin: 30px 0px 10px 0px;
 }
 .zagolovok h1 {
   font-family: Marck Script;
@@ -14,20 +14,31 @@
 }
 
 .kalendar {
-  position: absolute;
-  width: 162.23px;
+  margin: 20px;
   height: 160px;
+  width: 110px;
+  height: 110px;
+  background: url(icons8-calendar-160.png);
+  border-radius: 0px;
 }
 
-.poisk {
+.control-panel {
+  float: right;
+}
+.control-panel .poisk {
+  margin: 30px 0px 0px 10px;
   display: flex;
   width: 60px;
   height: 60px;
   background: url(icons8-search-100.png);
 }
-
-.burger {
+.control-panel .burger {
+  margin: 0px 0px 0px 0px;
   display: flex;
   width: 60px;
   height: 60px;
+}
+
+.bolshaya-kartinka {
+  margin: 0px 383px 0px 0px;
 }
