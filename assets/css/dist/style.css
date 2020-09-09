@@ -1,5 +1,5 @@
+@charset "UTF-8";
 .zagolovok {
-  height: 10em;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -15,7 +15,6 @@
 
 .kalendar {
   margin: 20px;
-  height: 160px;
   width: 110px;
   height: 110px;
   background: url(icons8-calendar-160.png);
@@ -23,12 +22,14 @@
 }
 
 header {
+  height: 160px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .control-panel {
+  align-items: center;
+  height: 100%;
   display: flex;
   justify-content: flex-end;
 }
@@ -44,6 +45,35 @@ header {
   height: 60px;
 }
 
-.bolshaya-kartinka {
-  margin: 0px 383px 0px 0px;
+@font-face {
+  font-family: "Marck-Script";
+  src: "";
+}
+.slider-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider-main .subsidiary-slide {
+  width: 220px;
+  height: 300px;
+  background-color: #863636;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.slider-main .center-slide {
+  width: 600px;
+  height: 360px;
+  background-color: #863636;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Łucznik 1303 Plus;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: justify;
+  color: #000000;
 }
