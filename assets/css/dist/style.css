@@ -22,18 +22,23 @@
   border-radius: 0px;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .control-panel {
-  float: right;
+  display: flex;
+  justify-content: flex-end;
 }
 .control-panel .poisk {
-  margin: 30px 0px 0px 10px;
   display: flex;
   width: 60px;
   height: 60px;
   background: url(icons8-search-100.png);
 }
 .control-panel .burger {
-  margin: 0px 0px 0px 0px;
   display: flex;
   width: 60px;
   height: 60px;
