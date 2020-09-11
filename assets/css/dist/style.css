@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Marck-Script";
+  src: "";
+}
 .zagolovok {
   display: flex;
   align-items: flex-start;
@@ -45,10 +49,6 @@ header {
   height: 60px;
 }
 
-@font-face {
-  font-family: "Marck-Script";
-  src: "";
-}
 .slider-main {
   display: flex;
   justify-content: space-between;
